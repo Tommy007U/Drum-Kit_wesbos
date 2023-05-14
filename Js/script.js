@@ -1,7 +1,3 @@
-Drum-Kit_wesbos
-
-EXPLAINING THE ALL JS CODE IN DETAILS
-
 function playSound(e){
 
     
@@ -28,4 +24,4 @@ const keys = document.querySelectorAll('.key') // will select all the key class 
 //console.log('.key')
 keys.forEach(key => key.addEventListener('transitionend', removeTransition));
 
-window.addEventListener('keydown', playSound);  // when the key is down is going to play the sound.
+window.addEventListener('keydown', playSound);
